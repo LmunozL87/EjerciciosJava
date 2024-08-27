@@ -43,8 +43,12 @@ public class Condiciones {
         } 
         else 
         {
+            if (this.edad <= 12 && this.getEdad() >= 17){
+                System.out.println("Ud es un adolecente.");
+            }
             System.out.println("Ud es menor de edad");
         }
     }
 
 }
+
