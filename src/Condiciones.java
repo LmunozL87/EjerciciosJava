@@ -36,4 +36,15 @@ public class Condiciones {
         this.nombre = nombre;
     }
 
+    public void pruebaCondiciones() {
+        if (this.edad >= 18) 
+        {
+            System.out.println("Ud es mayor de edad.");
+        } 
+        else 
+        {
+            System.out.println("Ud es menor de edad");
+        }
+    }
+
 }
